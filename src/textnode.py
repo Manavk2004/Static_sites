@@ -1,12 +1,12 @@
 from enum import Enum
 
 class TextType(Enum):
-    NORNAL = "normal"
+    TEXT = "text"
     BOLD = "bold"
     ITALIC = "italic"
     CODE = "code"
     LINK = "link"
-    IMAGES  = "images"
+    IMAGE = "images"
 
 
 
